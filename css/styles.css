@@ -573,3 +573,15 @@ gap: 332px;
 .svglogo-customers {
     fill: currentColor;
 }
+
+.foo-container {
+    display: flex;
+}
+
+.social-media-infoo {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--white-background);
+}
