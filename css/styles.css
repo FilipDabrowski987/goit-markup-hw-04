@@ -149,6 +149,8 @@ flex-basis: calc((100% - 48px) / 3);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .teamlist {
@@ -241,6 +243,11 @@ footer {
     background-color: var(--dark);
     letter-spacing: 0.03em;
     padding: 100px 0;
+}
+
+.foo {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .footer {
@@ -512,4 +519,13 @@ gap: 332px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--pressed-state);
+}
+
+.svgsocial-link-icons {
+    fill: var(--light);
 }
