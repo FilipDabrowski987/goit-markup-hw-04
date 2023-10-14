@@ -216,7 +216,9 @@ address {
     color: var(--white-background);
     background-color: var(--pressed-state);
     border: 1px solid transparent;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .orderservice {
@@ -378,8 +380,14 @@ footer {
     row-gap: 48px;
 }
 
+.libuttonpic {
+    display: block;
+}
+
 .libuttonpic:hover {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .pic {
@@ -559,7 +567,7 @@ gap: 332px;
 .customers-links:hover,
 .customers-links:focus {
     border-color: var(--pressed-state);
-    stroke: var(--pressed-state);
+    color: var(--pressed-state);
 }
 
 .svglogo-customers {
