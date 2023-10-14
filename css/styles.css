@@ -417,7 +417,6 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -460,7 +459,6 @@ gap: 332px;
     padding: 32px 16px;
     border: 1px solid var(--accent);
     border-top: none;
-
 }
 
 .logoinfoo {
@@ -509,10 +507,6 @@ gap: 332px;
 }
 
 .licustomers {
-    border-radius: 4px;
-    border: 1px;
-    border-style: solid;
-    border-color: var(--subtle-text);
     width: calc((100% - 120px) / 6);
     height: 88px;
     align-items: center;
@@ -555,5 +549,19 @@ gap: 332px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border-radius: 4px;
+    border: 1px;
+    border-style: solid;
+    border-color: var(--subtle-text);
+    color: var(--subtle-text);
+}
+
+.customers-links:hover,
+.customers-links:focus {
+    border-color: var(--pressed-state);
+    stroke: var(--pressed-state);
+}
+
+.svglogo-customers {
+    fill: currentColor;
 }
