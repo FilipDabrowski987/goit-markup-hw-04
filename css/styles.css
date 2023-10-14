@@ -444,7 +444,7 @@ gap: 332px;
     display: inline-block;
 }
 .characteristic-icons {
-    fill: black;
+    stroke: var(--dark);
     background-color: var(--light);
     border-radius: 4px;
     margin-bottom: 8px;
