@@ -443,3 +443,6 @@ gap: 332px;
     margin-right: 76px;
     display: inline-block;
 }
+.characteristic-icons {
+    fill: black;
+}
