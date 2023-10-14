@@ -503,8 +503,6 @@ gap: 332px;
     align-items: center;
 }
 
-
-
 .licustomers {
     border-radius: 4px;
     border: 1px;
@@ -544,4 +542,13 @@ gap: 332px;
 
 .svgsocial-link-icons {
     fill: var(--light);
+}
+
+.customers-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
