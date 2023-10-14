@@ -501,14 +501,16 @@ gap: 332px;
     gap: 24px;
     justify-content: center;
     align-items: center;
-    width: calc((100% - 120px) / 6);
 }
 
-.customers-icons {
+
+
+.licustomers {
     border-radius: 4px;
     border: 1px;
     border-style: solid;
     border-color: var(--subtle-text);
+    width: calc((100% - 120px) / 6);
     height: 88px;
     align-items: center;
     justify-content: center;
