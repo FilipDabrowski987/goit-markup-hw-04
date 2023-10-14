@@ -510,6 +510,10 @@ gap: 332px;
     justify-content: center;
     gap: 24px;
 }
+.lisocial-link-icons {
+    width: 40px;
+    height: 40px;
+}
 
 .social-link {
     width: 100%;
