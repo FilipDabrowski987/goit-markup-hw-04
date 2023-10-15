@@ -580,8 +580,8 @@ gap: 332px;
     margin-left: 156px;
 }
 
-.foo-social-links {
-    margin-left: 120px;
+.foo-container-logo {
+    margin-right: 120px;
 }
 
 .social-media-infoo {
@@ -590,6 +590,7 @@ gap: 332px;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--white-background);
+    margin-bottom: 16px;
 }
 .ulsocial-links-infoo {
     list-style: none;
@@ -609,7 +610,16 @@ gap: 332px;
     justify-content: center;
 }
 
+.social-link-infoo:hover,
+.social-link-infoo:focus {
+    background-color: var(--success);
+}
+
 .lisocial-link-icons-infoo {
     width: 40px;
     height: 40px;
+}
+
+.svgsocial-link-icons-infoo{
+    fill: var(--light);
 }
