@@ -104,7 +104,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .lipic {
-    width: calc((100% - 48px) / 3);
+    display: block;
 }
 
 .char {
@@ -384,10 +384,10 @@ footer {
     display: block;
 }
 
-.libuttonpic:hover {
+.lipic:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .pic {
@@ -453,6 +453,7 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: var(--text);
     text-align: center;
+    margin-bottom: 8px;
 }
 .membercontainer {
     padding: 32px 0;
@@ -504,6 +505,7 @@ gap: 332px;
     justify-content: center;
     align-items: center;
     margin-bottom: 72px;
+    margin-left: 473px;
 }
 
 .ulcustomers {
