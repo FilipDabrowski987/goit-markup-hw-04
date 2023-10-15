@@ -577,12 +577,13 @@ gap: 332px;
 .foo-container {
     display: flex;
     align-items: baseline;
-    margin-left: 156px;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .foo-container-logo {
     margin-right: 120px;
-    
 }
 
 .social-media-infoo {
